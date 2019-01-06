@@ -26,7 +26,7 @@ def sentiment_analyzer_scores(sentence):
 
 #Replace #### with filename
 #Assumes that only a one-column file format with data in column 1
-df = pd.read_excel('/Users/harvinderpower/Desktop/positive_comments.xlsx')
+df = pd.read_excel('####')
 
 #Initialises lists for metrics
 neg_list = []
